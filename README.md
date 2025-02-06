@@ -1,4 +1,4 @@
-# Evaluating Indic LLMs: Multilingual Performance Benchmarking
+[# Evaluating Indic LLMs: Multilingual Performance Benchmarking
 
 ![Model Scores Graph](image.png)
 
@@ -41,4 +41,3 @@ For `sglang` installation, refer to the [installation guide](https://github.com/
 
 ## License
 TBD
-
