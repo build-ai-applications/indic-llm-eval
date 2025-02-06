@@ -1,1 +1,376 @@
+MuliLingual capability
+
+## 1. Model: genSILMA-Kashif-2B-Instruct-v1.0
+
+Refined Evaluation Categorized by Topic & Language
+
+Category of Question           | Average Score (Out of 100)
+------------------------------------------------------------
+Fluency & Grammar              | 70.00 (Good in Hindi & Bengali, weaker in Tamil & Telugu)
+Accuracy of Responses          | 65.00 (Mostly correct but lacks depth and cultural context)
+Coherence & Structure          | 60.00 (Tamil and Telugu responses often contain repetition)
+Completeness of Answers        | 55.00 (Some responses cut off, reducing informativeness)
+Contextual Relevance           | 58.00 (Fails to fully integrate cultural and regional knowledge)
+Creative Writing & Expression  | 50.00 (Responses lack variety and fail in creativity-based queries)
+
+------------------------------------------------------------
+**Multilingual Performance**   | **62.00** (Good in Hindi/Bengali, weaker in Tamil/Telugu/Malayalam)
+------------------------------------------------------------
+Hindi                          | 75.00 (Mostly accurate, but could be more detailed)
+Bengali                        | 70.00 (Good structure, but some responses lack depth)
+Tamil                          | 60.00 (Issues with coherence and structure)
+Telugu                         | 60.00 (Repetitions and cut-off responses reduce clarity)
+Malayalam                      | 52.00 (Responses are somewhat structured but often incomplete)  
+Marathi                        | 55.00 (More coherent but still lacks depth in responses)  
+------------------------------------------------------------
+**Overall Score**              | **60.00** (Moderate quality, needs fine-tuning for Indian languages)
+
+=======================================================================================================================================
+
+## 2 Model: genkeeeeenw-Llama-3.2-1B-Instruct-Open-R1-Distill
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+------------------------------------------------------------
+Fluency & Grammar               | 65.00 (Decent, but errors in Tamil & Telugu reduce clarity)
+Accuracy of Responses           | 60.00 (Responses often lack depth and are sometimes incorrect)
+Coherence & Structure           | 55.00 (Frequent repetition and incomplete responses)
+Completeness of Answers         | 50.00 (Many answers are cut off or missing critical information)
+Contextual Relevance            | 52.00 (Fails to fully integrate cultural and linguistic nuances)
+Creative Writing & Expression   | 45.00 (Lacks natural variation, responses feel mechanical)
+------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (55.00)**
+------------------------------------------------------------
+Hindi                          | 70.00 (Fairly accurate, but lacks elaboration)
+Bengali                        | 65.00 (Good structure but missing depth)
+Tamil                          | 50.00 (Repetitions, incomplete answers, and unnatural phrasing)
+Telugu                         | 48.00 (Frequent errors, incoherent sentences, and missing content)
+Malayalam                      | 48.00 (Some responses incomplete, lacks fluency)  
+Marathi                        | 52.00 (Better structure but still inconsistent)  
+Multilingual Consistency       | 55.00 (Struggles with maintaining quality across languages)
+------------------------------------------------------------
+**Final Verdict**              | **55.00** (Needs major improvements in Tamil, Telugu, and completeness of responses)
+
+=======================================================================================================================================
+
+## 2. Model: genBSC-LT-salamandra-2b-instruct
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+------------------------------------------------------------
+Fluency & Grammar               | 60.00 (Inconsistent sentence structure, lacks smoothness)
+Accuracy of Responses           | 55.00 (Responses often incomplete or missing key details)
+Coherence & Structure           | 50.00 (Frequent repetition and truncated answers)
+Completeness of Answers         | 45.00 (Many responses cut off, reducing informativeness)
+Contextual Relevance            | 50.00 (Fails to fully capture cultural and linguistic nuances)
+Creative Writing & Expression   | 40.00 (Lacks depth and variety in responses)
+------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (50.00)**
+------------------------------------------------------------
+Hindi                          | 55.00 (Basic accuracy, but responses often incomplete)
+Bengali                        | 52.00 (Limited structure, some sentences cut off)
+Tamil                          | 48.00 (Repetitions, unnatural phrasing, and missing content)
+Telugu                         | 46.00 (Coherence issues, frequently truncated responses)
+Malayalam                      | 45.00 (Frequent truncation and missing content, lacks fluency)  
+Marathi                        | 50.00 (Some coherence issues, incomplete responses, but better structure than Malayalam)  
+Multilingual Consistency       | 50.00 (Inconsistent performance across languages)
+------------------------------------------------------------
+**Final Verdict**              | **50.00** (Struggles with completeness and coherence, needs improvement in multilingual quality)
+
+=======================================================================================================================================
+
+## 3. Model: genMLE-Qwen-Qwen2.5-Coder-1.5B-Instruct
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+------------------------------------------------------------
+Fluency & Grammar               | 60.0 (Fluent but has minor structuring issues)
+Accuracy of Responses           | 60.0 (Mostly correct but lacks contextual specificity)
+Coherence & Structure           | 60.0 (Well-structured but occasional repetition)
+Completeness of Answers         | 60.0 (Some responses are cut off or lack depth)
+Contextual Relevance            | 40.0 (Needs more cultural depth and refinement)
+Creative Writing & Expression   | 0.0 (Limited variation in phrasing and response creativity)
+------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (56.0)**
+------------------------------------------------------------
+Hindi                          | 53.14 (Fluency: 60.0, Accuracy: 60.0, Coherence: 60.0, Completeness: 60.0, Context: 25.72)  
+Bengali                        | 48.0 (Fluency: 60.0, Accuracy: 60.0, Coherence: 60.0, Completeness: 60.0, Context: 0.0)  
+Tamil                          | 0.0 (Fluency: 0.0, Accuracy: 0.0, Coherence: 0.0, Completeness: 0.0, Context: 0.0)  
+Telugu                         | 48.0 (Fluency: 60.0, Accuracy: 60.0, Coherence: 60.0, Completeness: 60.0, Context: 0.0)  
+Malayalam                      | 56.0 (Fluency: 60.0, Accuracy: 60.0, Coherence: 60.0, Completeness: 60.0, Context: 40.0)  
+Marathi                        | 54.67 (Fluency: 60.0, Accuracy: 60.0, Coherence: 60.0, Completeness: 60.0, Context: 33.34)  
+Multilingual Consistency       | 43.30 (Some inconsistencies between language performances)
+------------------------------------------------------------
+**Final Verdict**              | **56.0** (Moderate multilingual performance, needs improvement in contextual accuracy and completeness)
+
+=======================================================================================================================================
+
+## 4. Model: genMLE-abhinand-gemma-2b-it-tamil-v0.1-alpha
+
+Refined Evaluation for Tamil Performance
+
+Category                        | Average Score (Out of 100)
+--------------------------------------------------------------------
+Fluency & Grammar               | 55.00 (Frequent unnatural phrasing, some grammatical mistakes)
+Accuracy of Responses           | 50.00 (Answers lack depth and precision, some incorrect facts)
+Coherence & Structure           | 45.00 (Repetition issues and incomplete responses)
+Completeness of Answers         | 42.00 (Many responses cut off or missing key details)
+Contextual Relevance            | 48.00 (Struggles to align responses with nuanced Tamil context)
+Creative Writing & Expression   | 40.00 (Responses feel mechanical, lack natural Tamil phrasing)
+--------------------------------------------------------------------
+**Overall Tamil Performance**   | **47.00** (Needs improvement in fluency, completeness, and structure)
+--------------------------------------------------------------------
+Strengths                       | Handles basic Tamil queries decently, some responses are useful
+Weaknesses                      | Repetitive, lacks contextual depth, frequent cut-off answers
+Recommendation                  | Requires better training on Tamil syntax & cultural context
+
+=======================================================================================================================================
+
+## 5. Model: genMLE-google-gemma-2b-it
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+--------------------------------------------------------------------
+Fluency & Grammar               | 58.0 (Decent, but structuring issues in some languages)
+Accuracy of Responses           | 55.0 (Some responses lack depth and are occasionally incorrect)
+Coherence & Structure           | 52.0 (Frequent repetition and incomplete responses)
+Completeness of Answers         | 50.0 (Several responses are cut off or missing key details)
+Contextual Relevance            | 48.0 (Struggles to align responses with nuanced cultural contexts)
+Creative Writing & Expression   | 40.0 (Responses feel mechanical, limited variation in phrasing)
+--------------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (50.5)**
+--------------------------------------------------------------------
+Hindi                           | 60.0 (Fluency: 65.0, Accuracy: 58.0, Coherence: 55.0, Completeness: 52.0, Context: 50.0)  
+Bengali                         | 55.0 (Fluency: 60.0, Accuracy: 55.0, Coherence: 52.0, Completeness: 50.0, Context: 45.0)  
+Tamil                           | 48.0 (Fluency: 55.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 45.0, Context: 40.0)  
+Telugu                          | 46.0 (Fluency: 52.0, Accuracy: 48.0, Coherence: 45.0, Completeness: 42.0, Context: 40.0)  
+Malayalam                       | 50.0 (Fluency: 55.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 46.0, Context: 42.0)  
+Marathi                         | 53.0 (Fluency: 58.0, Accuracy: 55.0, Coherence: 52.0, Completeness: 50.0, Context: 45.0)  
+Multilingual Consistency        | 45.0 (Some inconsistencies between languages, especially in depth and relevance)
+--------------------------------------------------------------------
+**Final Verdict**               | **50.5** (Needs improvement in contextual accuracy, completeness, and fluency in certain languages)
+
+=======================================================================================================================================
+
+## 6. Model: genMLE-tiiuae-Falcon3-1B-Instruct
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+--------------------------------------------------------------------
+Fluency & Grammar               | 54.0 (Mostly fluent, but lacks refinement in structure)
+Accuracy of Responses           | 50.0 (Several responses lack depth, factual errors present)
+Coherence & Structure           | 48.0 (Repetitions, incomplete sentences, and cut-off responses)
+Completeness of Answers         | 46.0 (Many answers are truncated or missing critical information)
+Contextual Relevance            | 45.0 (Fails to fully integrate cultural and linguistic nuances)
+Creative Writing & Expression   | 38.0 (Responses feel mechanical, lack variation in phrasing)
+--------------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (47.0)**
+--------------------------------------------------------------------
+Hindi                           | 55.0 (Fluency: 60.0, Accuracy: 52.0, Coherence: 50.0, Completeness: 48.0, Context: 45.0)  
+Bengali                         | 50.0 (Fluency: 55.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 45.0, Context: 40.0)  
+Tamil                           | 40.0 (Fluency: 45.0, Accuracy: 40.0, Coherence: 38.0, Completeness: 35.0, Context: 30.0)  
+Telugu                          | 42.0 (Fluency: 48.0, Accuracy: 42.0, Coherence: 40.0, Completeness: 38.0, Context: 35.0)  
+Malayalam                       | 45.0 (Fluency: 50.0, Accuracy: 45.0, Coherence: 42.0, Completeness: 40.0, Context: 38.0)  
+Marathi                         | 50.0 (Fluency: 55.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 45.0, Context: 42.0)  
+Multilingual Consistency        | 42.0 (Performance varies significantly across languages)
+--------------------------------------------------------------------
+**Final Verdict**               | **47.0** (Needs improvement in contextual accuracy, completeness, and fluency in Tamil and Telugu)
+
+=======================================================================================================================================
+
+## 7. Model: genMLE-tiiuae-Falcon3-3B-Instruct
+
+Refined Evaluation for Multilingual Performance
+
+Category                        | Average Score (Out of 100)
+--------------------------------------------------------------------
+Fluency & Grammar               | 57.0 (Generally fluent, but minor structural issues)
+Accuracy of Responses           | 54.0 (Responses sometimes lack depth or factual correctness)
+Coherence & Structure           | 50.0 (Repetition, incomplete sentences, and cut-off responses)
+Completeness of Answers         | 48.0 (Several answers are missing key details or are truncated)
+Contextual Relevance            | 46.0 (Fails to fully align with cultural and linguistic nuances)
+Creative Writing & Expression   | 42.0 (Responses feel mechanical, lacking natural variation)
+--------------------------------------------------------------------
+**Multilingual Performance**    | **Overall Score (49.5)**
+--------------------------------------------------------------------
+Hindi                           | 58.0 (Fluency: 60.0, Accuracy: 55.0, Coherence: 52.0, Completeness: 50.0, Context: 48.0)  
+Bengali                         | 52.0 (Fluency: 55.0, Accuracy: 52.0, Coherence: 50.0, Completeness: 48.0, Context: 44.0)  
+Tamil                           | 44.0 (Fluency: 48.0, Accuracy: 44.0, Coherence: 42.0, Completeness: 40.0, Context: 38.0)  
+Telugu                          | 45.0 (Fluency: 50.0, Accuracy: 45.0, Coherence: 43.0, Completeness: 42.0, Context: 38.0)  
+Malayalam                       | 48.0 (Fluency: 52.0, Accuracy: 48.0, Coherence: 46.0, Completeness: 44.0, Context: 40.0)  
+Marathi                         | 50.0 (Fluency: 54.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 46.0, Context: 42.0)  
+Multilingual Consistency        | 44.0 (Some inconsistencies between languages, especially in completeness and relevance)
+--------------------------------------------------------------------
+**Final Verdict**               | **49.5** (Needs improvement in Tamil, Telugu, and overall contextual accuracy)
+
+=======================================================================================================================================
+
+=========================================
+## 8. Model: genGovind222-Koyna-V1-3b-Instruct  (general MLE)
+=========================================
+
+Refined Evaluation for Multilingual Performance
+------------------------------------------------
+Category                         | Score (Out of 100)
+------------------------------------------------
+Fluency & Grammar                | 65.0 (Generally fluent, but minor structural inconsistencies)
+Accuracy of Responses            | 60.0 (Responses mostly relevant but lack depth at times)
+Coherence & Structure            | 58.0 (Some repetition, incomplete or cut-off responses)
+Completeness of Answers          | 55.0 (Occasional truncation, missing details)
+Contextual Relevance             | 53.0 (Needs better cultural and linguistic alignment)
+Creative Writing & Expression    | 50.0 (Responses lack variation and feel somewhat mechanical)
+------------------------------------------------
+Multilingual Performance         | Overall Score: 56.8
+------------------------------------------------
+Hindi                            | 67.0 (Fluency: 70.0, Accuracy: 65.0, Coherence: 63.0, Completeness: 60.0, Context: 55.0)
+Bengali                          | 60.0 (Fluency: 65.0, Accuracy: 60.0, Coherence: 58.0, Completeness: 55.0, Context: 50.0)
+Tamil                            | 50.0 (Fluency: 55.0, Accuracy: 50.0, Coherence: 48.0, Completeness: 45.0, Context: 42.0)
+Telugu                           | 52.0 (Fluency: 58.0, Accuracy: 52.0, Coherence: 50.0, Completeness: 48.0, Context: 45.0)
+Malayalam                        | 55.0 (Fluency: 60.0, Accuracy: 55.0, Coherence: 53.0, Completeness: 50.0, Context: 47.0)
+Marathi                          | 58.0 (Fluency: 63.0, Accuracy: 58.0, Coherence: 55.0, Completeness: 53.0, Context: 50.0)
+Multilingual Consistency         | 50.0 (Inconsistencies in completeness and cultural adaptation)
+------------------------------------------------
+Final Verdict                    | 56.8 (Needs improvement in Tamil, Telugu, and overall contextual depth)
+
+======================================================================================================================================
+
+
+==================================================================
+## 9.Model: genMLE-TinyLlama-TinyLlama_v1.1_math_code
+==================================================================
+
+Category                        | Score (Out of 100)  | Remarks
+-------------------------------------------------------------------------------------------------
+Fluency & Grammar               | 50.0                | Many responses contain repetitive phrases.
+Accuracy of Responses           | 45.0                | Some responses are irrelevant or nonsensical.
+Coherence & Structure           | 40.0                | Severe repetition, broken formatting in responses.
+Completeness of Answers         | 38.0                | Many responses are cut off or contain looping text.
+Contextual Relevance            | 35.0                | Responses often miss cultural or contextual accuracy.
+Creative Writing & Expression   | 30.0                | Lacks variation, many responses feel robotic.
+-------------------------------------------------------------------------------------------------
+Multilingual Performance        | Overall Score: **39.7** (Poor)
+-------------------------------------------------------------------------------------------------
+Hindi                           | 42.0 (Fluency: 45, Accuracy: 40, Coherence: 38, Completeness: 35, Context: 30)
+Bengali                         | 38.0 (Fluency: 40, Accuracy: 35, Coherence: 36, Completeness: 32, Context: 27)
+Tamil                           | 35.0 (Fluency: 38, Accuracy: 34, Coherence: 32, Completeness: 30, Context: 25)
+Telugu                          | 36.0 (Fluency: 38, Accuracy: 35, Coherence: 34, Completeness: 30, Context: 26)
+Malayalam                       | 34.0 (Fluency: 36, Accuracy: 32, Coherence: 30, Completeness: 28, Context: 24)
+Marathi                         | 40.0 (Fluency: 43, Accuracy: 38, Coherence: 36, Completeness: 34, Context: 30)
+Multilingual Consistency        | 33.0 (Severe repetition, missing details, and formatting issues)
+-------------------------------------------------------------------------------------------------
+Final Verdict                   | **39.7 - Weak performance, needs major improvements in accuracy and fluency.**
+
+
+==================================================================
+## 10.Model: genMLE-TinyLlama-TinyLlama_v1.1
+==================================================================
+
+Category                        | Score (Out of 100)  | Remarks
+-------------------------------------------------------------------------------------------------
+Fluency & Grammar               | 40.0                | Repetitive phrases, broken sentences.
+Accuracy of Responses           | 35.0                | Many responses contain looping or nonsensical text.
+Coherence & Structure           | 30.0                | Major formatting and repetition issues.
+Completeness of Answers         | 28.0                | Several responses are incomplete or incorrect.
+Contextual Relevance            | 25.0                | Fails to align with language and cultural contexts.
+Creative Writing & Expression   | 20.0                | Many answers are meaningless or nonsensical.
+-------------------------------------------------------------------------------------------------
+Multilingual Performance        | Overall Score: **29.7** (Very Poor)
+-------------------------------------------------------------------------------------------------
+Hindi                           | 32.0 (Severe repetition and nonsense responses)
+Bengali                         | 30.0 (Broken structure and illogical answers)
+Tamil                           | 28.0 (Looping text, incomplete answers)
+Telugu                          | 27.0 (Frequent repetition, low relevance)
+Malayalam                       | 26.0 (Incorrect responses, broken syntax)
+Marathi                         | 31.0 (Slightly better but still unreliable)
+Multilingual Consistency        | 22.0 (Extreme repetition across languages)
+-------------------------------------------------------------------------------------------------
+Final Verdict                   | **29.7 - Very poor performance, severe looping and structural issues.**
+
+
+
+==================================================================
+## 11. Model: genMLEl3cube-pune-marathi-gpt-gemma-2b
+==================================================================
+
+Category                        | Score (Out of 100)  | Remarks
+-------------------------------------------------------------------------------------------------
+Fluency & Grammar               | 45.0                | Some grammatical correctness, but repetition.
+Accuracy of Responses           | 38.0                | Some factual errors and irrelevant text.
+Coherence & Structure           | 33.0                | Formatting issues and redundancy observed.
+Completeness of Answers         | 30.0                | Some responses lack necessary details.
+Contextual Relevance            | 28.0                | Somewhat aligned but often misses key context.
+Creative Writing & Expression   | 22.0                | Lacks natural creativity, some responses are odd.
+-------------------------------------------------------------------------------------------------
+Multilingual Performance        | Overall Score: **30.6** (Poor)
+-------------------------------------------------------------------------------------------------
+Hindi                           | 35.0 (Still repetitive but slightly better structured)
+Bengali                         | 33.0 (Formatting and structuring issues)
+Tamil                           | 30.0 (Repetitive, lacks clarity)
+Telugu                          | 29.0 (Errors and disjointed responses)
+Malayalam                       | 28.0 (Poor syntax and irrelevant responses)
+Marathi                         | 34.0 (Slightly better than others but still unreliable)
+Multilingual Consistency        | 25.0 (High repetition across languages)
+-------------------------------------------------------------------------------------------------
+Final Verdict                   | **30.6 - Poor performance, major structural and coherence issues.** 
+
+
+
+
+==================================================================
+## 12. Model: genMLE-meta-llama-Llama-3.2-1B-Instruct
+==================================================================
+
+Category                        | Score (Out of 100)  | Remarks
+-------------------------------------------------------------------------------------------------
+Fluency & Grammar               | 55.0                | Good sentence structure but occasional repetition.
+Accuracy of Responses           | 50.0                | Generally factual, but some inconsistencies.
+Coherence & Structure           | 48.0                | Well-formed responses, but some redundancy.
+Completeness of Answers         | 45.0                | Mostly complete but sometimes lacking depth.
+Contextual Relevance            | 42.0                | Aligned but still misses cultural context at times.
+Creative Writing & Expression   | 40.0                | Some responses feel mechanical or uninspired.
+-------------------------------------------------------------------------------------------------
+Multilingual Performance        | Overall Score: **43.2** (Moderate)
+-------------------------------------------------------------------------------------------------
+Hindi                           | 46.7 (Good fluency and structure, slight repetition)
+Bengali                         | 44.3 (Structured responses, minor formatting issues)
+Tamil                           | 41.8 (Decent clarity but lacks contextual depth)
+Telugu                          | 39.7 (Some inconsistency and repetition)
+Malayalam                       | 37.8 (Lower fluency, needs better coherence)
+Marathi                         | 48.8 (Best among languages, good fluency and accuracy)
+Multilingual Consistency        | 40.0 (Mostly consistent but some variation in response quality)
+-------------------------------------------------------------------------------------------------
+Final Verdict                   | **43.2 - Moderate Performance, better fluency and coherence but still requires fine-tuning.**
+
+
+==================================================================
+## 13 Model: genMLE-Qwen-Qwen2-0.5B
+==================================================================
+
+Category                        | Score (Out of 100)  | Remarks
+-------------------------------------------------------------------------------------------------
+Fluency & Grammar               | 45.0                | Generally good sentence structure but minor repetition.
+Accuracy of Responses           | 40.0                | Mostly factual, but some responses contain errors.
+Coherence & Structure           | 35.0                | Some redundancy and lack of smooth transitions.
+Completeness of Answers         | 32.0                | Some responses lack depth and critical details.
+Contextual Relevance            | 30.0                | Responses sometimes miss cultural context.
+Creative Writing & Expression   | 28.0                | Responses feel somewhat robotic and lack variation.
+-------------------------------------------------------------------------------------------------
+Multilingual Performance        | Overall Score: **32.4** (Moderate)
+-------------------------------------------------------------------------------------------------
+Hindi                           | 35.0 (Good fluency but coherence needs work)
+Bengali                         | 32.8 (Some repetition and missing context)
+Tamil                           | 31.5 (Lacks fluency and contextual depth)
+Telugu                          | 29.5 (Inconsistent responses, needs refinement)
+Malayalam                       | 27.5 (Weak sentence structure and poor context)
+Marathi                         | 37.8 (Best among languages, good fluency and accuracy)
+Multilingual Consistency        | 30.0 (Responses vary significantly across languages)
+-------------------------------------------------------------------------------------------------
+Final Verdict                   | **32.4 - Moderate Performance, but needs improvement in coherence, completeness, and creative expression.**
+
+
 
