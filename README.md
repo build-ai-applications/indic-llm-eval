@@ -50,10 +50,5 @@ For `sglang` installation, refer to the [installation guide](https://github.com/
 ---
 
 ## 📜 License
-TBD
-
----
-
-## 📚 References
-Ensure all references are accounted for before making this repository public.
+indic-llm-eval is **open-source** under the **Apache 2.0**. Use it freely and contribute to make it better! 🚀
 
